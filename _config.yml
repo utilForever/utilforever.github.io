@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      rouge
 
 # Permalinks
@@ -24,4 +24,4 @@ github:
   repo:           https://github.com/utilForever
 
 # Dependencies
-plugins:          [jekyll-gist, jekyll-feed, jekyll-paginate, redcarpet]
+plugins:          [jekyll-gist, jekyll-feed, jekyll-paginate]
