@@ -6,22 +6,22 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Hyde
+title:            utilForever's Programming Life!
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+description:      'Nexon Korea Game Programmer, Microsoft Developer Technologies MVP, C++ Korea Group Administrator'
+url:              http://utilForever.github.io
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Chris Ohk'
+  url:            https://twitter.com/utilForever
 
 paginate:         5
 
 # Custom vars
-version:          2.0.0
+version:          1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/utilForever
 
 # Dependencies
 plugins:          [jekyll-gist, jekyll-feed, jekyll-paginate, pygments.rb, redcarpet]
