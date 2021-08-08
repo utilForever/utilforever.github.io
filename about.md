@@ -3,28 +3,39 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+### Chris Ohk -- @utilForever
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+### 🔭 I’m currently working on
+- Momenti Engine Engineer (Aug 2021 ~ Present)
+- Microsoft Developer Technologies MVP (Jul 2015 ~ Present)
+- Nexon Korea Game Client Programmer (Sep 2015 ~ Jul 2021)
 
-There are currently two themes built on Poole:
+### 🌱 I’m currently learning
+- Modern C++, C#, F#, Rust, Julia, Python, TypeScript
+- Computer Graphics/Vision, Fluid Simulation
+- Reinforcement Learning, Natural Language Processing
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+### 👯 I’m looking to collaborate on
+- Founder & Administrator at [**C++ Korea**](https://www.facebook.com/groups/cppkorea)
+- Administrator at [**Reinforcement Learning KR**](https://www.facebook.com/groups/ReinforcementLearningKR)
+- Leader of [**RL Paper Review Study**](https://github.com/utilForever/rl-paper-study)
+- Lecturer of Reinforcement Learning Study at [**KAIST - Include**](https://www.facebook.com/kaistinclude)
+- Mentor of Computer Engineering at [**Korea Scholar's Conference for Youth**](https://www.kscy.kr)
+- Mentor of Reinforcement Learning at [**Korea Digital Media High School - Rendezvous**](https://www.facebook.com/Rendezvousindimigo)
+- Mentor of Reinforcement Learning at [**Jeonbuk Science High School - R&E Team**](https://school.jbedu.kr/ejbs)
+- Translator of [**GameSalad by Example Beginners Guide**](http://www.yes24.com/Product/Goods/9263326) by Acron Publishing
+- Translator of [**Unity Shaders and Effects Cookbook**](http://www.yes24.com/Product/Goods/12743286) by Acron Publishing
+- Translator of [**Programming 2D Games**](http://www.yes24.com/Product/Goods/15280744) by Acron Publishing
+- Translator of [**Rust Essentials**](https://www.hanbit.co.kr/store/books/look.php?p_code=E2088508957) by Hanbit Media
+- Translator of [**Discovering the Modern C++**](http://www.yes24.com/Product/Goods/57615943) by Gilbut
+- Translator of [**Optimized C++**](http://www.yes24.com/Product/Goods/74971458) by Hanbit Media
+- Translator of C++ Crash Course (WIP) by Youngjin.com
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## Contact Information
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.org), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+- Mail: utilforever@gmail.com
+- [Facebook](https://www.facebook.com/utilforever/)
+- [Twitter](https://twitter.com/utilforever/)
+- [Instagram](https://www.instagram.com/utilforever/)
+- [LinkedIn](https://www.linkedin.com/in/chan-ho-ohk-3a902a80/)
+- Discord: utilForever#9761
