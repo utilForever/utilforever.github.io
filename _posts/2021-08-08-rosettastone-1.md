@@ -15,7 +15,7 @@ title: RosettaStone 개발 일지 1 - 몇 가지 버그 수정
 
 ## 살아있는 씨앗 (1 레벨)
 
-![living_seed](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/0/0f/Living_Seed_%28Rank_1%29%28487654%29_Gold.png/revision/latest/scale-to-width-down/200?cb=20210326165843)
+![living_seed](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/0/0f/Living_Seed_%28Rank_1%29%28487654%29_Gold.png)
 
 `살아있는 씨앗 (1 레벨)`은 `야수를 뽑습니다. 그 야수의 비용이 (1) 감소합니다. (보유한 마나가 5일때 강화됩니다.)`라는 효과를 갖는 카드다. 최근에 확장팩 '불모의 땅' 카드들을 구현하면서 같이 작업한 카드인데, 이 카드는 보유한 마나가 특정 값이 될 때 레벨이 증가하는 카드라 기존에 없던 방식이었다. 그래서 마나가 증가할 때 동작하는 트리거를 구현했었다.
 
@@ -45,7 +45,7 @@ title: RosettaStone 개발 일지 1 - 몇 가지 버그 수정
 
 ## 요그사론의 수수께끼 상자
 
-![yogg](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/ee/Puzzle_Box_of_Yogg-Saron%2890692%29_Gold.png/revision/latest/scale-to-width-down/200?cb=20191105180708)
+![yogg](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/e/ee/Puzzle_Box_of_Yogg-Saron%2890692%29_Gold.png)
 
 플레이어의 관점에서 보는 `요그사론의 수수께끼 상자`는 하스스톤이 갖는 '무작위성'을 가장 잘 보여주는 카드다. 임의의 주문을 시전하는데 대상도 무작위라 사용했을 때 시전된 주문에 따라 한 순간에 판세가 뒤바뀔 수 있는 반전의 카드라고 볼 수 있다.
 
@@ -104,7 +104,7 @@ TaskStatus DrawMinionTask::Impl(Player* player)
 
 2. `지옥영혼 간수`라고 하는 하수인 카드가 있다.
 
-![felsoul_jailer](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/8/8e/Felsoul_Jailer%28463938%29_Gold.png/revision/latest/scale-to-width-down/200?cb=20210326185220)
+![felsoul_jailer](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/8/8e/Felsoul_Jailer%28463938%29_Gold.png)
 
 이 하수인의 카드 효과는 다음과 같이 구현되어 있다.
 
@@ -167,17 +167,17 @@ cards.emplace("CS3_003", CardDef(power));
 
 ## 상점가 털기
 
-![bazaar_burglary](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/a/a9/Bazaar_Burglary%2890798%29_Gold.png/revision/latest/scale-to-width-down/200?cb=20191105174511)
+![bazaar_burglary](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/a/a9/Bazaar_Burglary%2890798%29_Gold.png)
 
 `상점가 털기`는 `퀘스트: 다른 직업의 카드 4장을 내 손으로 가져와야 합니다. 보상: 고대의 검`라는 효과를 갖는 카드다. 이 카드를 구현할 당시에는 문제가 없었는데 언젠가부터 가끔 크래시가 발생하는 문제가 있었다. 그래서 왜 크래시가 발생하는 것인지 원인을 찾아보기 시작했고, 디버깅을 통해 분석한 결과 문제는 전혀 다른 곳에 있었다.
 
 `상점가 털기`의 카드 효과를 테스트하기 위한 코드 중에는 하수인 카드인 `상점가 약탈자`를 손에서 내는 부분이 있다.
 
-![bazzar_mugger](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/0/0f/Bazaar_Mugger%2890733%29_Gold.png/revision/latest/scale-to-width-down/200?cb=20191105174249)
+![bazzar_mugger](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/0/0f/Bazaar_Mugger%2890733%29_Gold.png)
 
 `상점가 약탈자`는 `속공, 전투의 함성: 다른 직업의 무작위 하수인을 내 손으로 가져옵니다.`라는 효과를 갖는 카드다. 이 카드를 통해 `상점가 털기`의 퀘스트를 완료할 수 있기 때문에 테스트 코드에 사용했었다. 이 카드의 효과로 인해 다양한 무작위 하수인을 손으로 가져오게 되는데 그 중에는 `타락` 키워드가 있는 하수인들도 있다.
 
-![fairground_fool](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/2/2c/Fairground_Fool%28388997%29_Gold.png/revision/latest/scale-to-width-down/200?cb=20201113111951)
+![fairground_fool](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/2/2c/Fairground_Fool%28388997%29_Gold.png)
 
 `타락` 키워드는 더 높은 비용의 카드를 낸 후에 손에서 강화되는 효과를 갖는다. 하스스톤 카드 데이터에는 `타락`되었을 때 강화된 카드를 알 수 있는 방법이 없기 때문에 수동으로 추가해줘야 한다. 문제는 여기에 있었다. `타락` 키워드가 있는 카드 중 구현한 카드는 문제가 없는데 구현하지 않은 카드는 강화된 카드가 무엇인지 지정하지 않았기 때문에 `타락` 키워드를 처리하는 로직에서 문제가 발생했다.
 
@@ -217,11 +217,11 @@ for (auto& playable : player->GetHandZone()->GetAll())
 
 ## 뱀 덫
 
-![snake_trap](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/0/02/Snake_Trap%28210%29_Gold.png/revision/latest/scale-to-width-down/200?cb=20210417112907)
+![snake_trap](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/0/02/Snake_Trap%28210%29_Gold.png)
 
 `뱀 덫`은 `비밀: 내 하수인이 공격받으면, 1/1 뱀을 3마리 소환합니다.`라는 효과를 갖는 카드다. 최근 이 카드와 비슷한 효과를 갖는 `오아시스 아군`이라는 카드를 확장팩 '불모의 땅'을 작업하면서 구현했었다.
 
-![oasis_ally](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/7/7f/Oasis_Ally%28464294%29_Gold.png/revision/latest/scale-to-width-down/200?cb=20210326170058)
+![oasis_ally](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/7/7f/Oasis_Ally%28464294%29_Gold.png)
 
 `오아시스 아군`은 `비밀: 내 하수인이 공격받으면, 3/6 물의 정령을 소환합니다.`라는 효과를 갖는 카드다. 두 카드 모두 발동 조건이 똑같다. `내 하수인이 공격받으면` 발동하는 카드다. 근데 여기서 주의할 점이 있다. 하스스톤의 카드 중에는 텍스트만으로는 알 수 없는 규칙들이 존재한다. 대표적으로 `뱀 덫`과 `오아시스 아군`이라는 카드가 그렇다. 두 카드의 발동 조건인 `내 하수인이 공격받으면`은 내 전장이 하수인으로 꽉 차있을 경우에는 발동 조건을 충족하더라도 발동하지 않는다. 이번에 `오아시스 아군` 카드를 구현하면서 `뱀 덫` 카드를 구현할 때 이 부분을 누락했던 사실을 발견했다.
 
