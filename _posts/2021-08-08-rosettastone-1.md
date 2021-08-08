@@ -53,7 +53,9 @@ title: RosettaStone 개발 일지 1 - 몇 가지 버그 수정
 
 그러다 보니 다른 카드들을 구현하다 보면 매우 드문 확률로 크래시가 발생할 때가 있다. 이전에 문제가 발생해 고쳤던 적이 있는데 확장팩 '불모의 땅' 카드들을 구현하면서 문제가 재발했다. 무엇이 문제였을까? 디버깅을 해보니 원인은 2가지였다.
 
-1. 하수인 카드를 드로우하는 `DrawMinionTask` 로직은 다음과 같다.
+### 원인 1
+
+하수인 카드를 드로우하는 `DrawMinionTask` 로직은 다음과 같다.
 
 ```C++
 TaskStatus DrawMinionTask::Impl(Player* player)
@@ -102,7 +104,9 @@ TaskStatus DrawMinionTask::Impl(Player* player)
 }
 ```
 
-2. `지옥영혼 간수`라고 하는 하수인 카드가 있다.
+### 원인 2
+
+`지옥영혼 간수`라고 하는 하수인 카드가 있다.
 
 ![felsoul_jailer](https://static.wikia.nocookie.net/hearthstone_gamepedia/images/8/8e/Felsoul_Jailer%28463938%29_Gold.png)
 
